@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jorge Espinoza</title>
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="/img/jorge-picture.png"
+            alt="Desarrollador web - Músico"
+          />
+          <div>
+            Jorge Espinoza <br />
+            { Programador - Músico }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">
+            Hola, soy <br />
+            Jorge Espinoza
+          </h1>
+          <p class="profile-details">
+            Me apasionan la programación y la informática musical. Soy desarrollador de
+            software y músico con más de 20 años de experiencia. Desde el punto de
+            vista del desarrollo de software manejo varios lenguajes de programación y
+            tecnologías actuales. Desde el punto de vista musical soy compositor,
+            arreglista, ingenierio de sonido y docente.
+          </p>
+          <div class="profile-btn-flex">
+            <button type="button" class="profile-btn" 
+              onclick=window.location.href="https://drive.google.com/u/3/uc?id=1p28EOGFFSVp637wmjdGUP6RQQmXshaRI&export=download">Descargar cv
+            </button>
+            <button type="button" class="profile-btn" 
+              onclick= "window.open('https://www.behance.net/gallery/148157973/Portafolio-de-programacion') " target="_blank">Ir a portafolio de programación
+            </button>
+            <button type="button" class="profile-btn" 
+              onclick= "window.open('https://www.behance.net/jorgeespinozacreator') " target="_blank">Ir a portafolio musical
+            </button> 
+          </div>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/profesional-profile.png"
+            alt="programador y músico"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave">
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2021</div>
+            <div class="experience-company">Fetter Fisch - Performance I Theater</div>
+            <div class="experience-position">Compositor</div>
+            <div class="experience-description">
+              Músico, compositor, arregista e ingenierio de sonido de música
+              para obra de teatro proyecto "Alice in Wonderland".
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2021</div>
+            <div class="experience-company">Molusko</div>
+            <div class="experience-position">Compositor</div>
+            <div class="experience-description">
+              Composición de la música para tres cortometrajes de videoarte 
+              para la productora audiovisual Molusko, Alemania. 
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2020</div>
+            <div class="experience-company">Karua Films</div>
+            <div class="experience-position">Compositor</div>
+            <div class="experience-description">
+              Composición de la música para el cortometraje animado “Conexión Amazonía” para el 
+              proyecto Amazonía 2.0 producido por Karua Films para la Unión Europea en Perú.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2019</div>
+            <div class="experience-company">Karua Films</div>
+            <div class="experience-position">Compositor</div>
+            <div class="experience-description">
+              Composición de la música para la mini serie “Ciudanderas” dirigida por 
+              Gabriela Arnal junto con la productora Araguato Films para el 
+              Fondo de Acción Urgente para América Latina y el Caribe FAU-AL 
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2018</div>
+            <div class="experience-company">Raíz de Agua</div>
+            <div class="experience-position">Compositor</div>
+            <div class="experience-description">
+              Composición de la música para el videoarte “Umbral” dirigido por Juliana Mendonca.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2017</div>
+            <div class="experience-company">Araguato Films</div>
+            <div class="experience-position">Compositor</div>
+            <div class="experience-description">
+              Composición de la música para el video “Symphony of the Ceiba” producido por Araguato Films 
+              para la International Wood Culture Society.
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2016-2017</div>
+            <div class="experience-company">Productora Esarte</div>
+            <div class="experience-position">Editor de video e ingenierio de sonido</div>
+            <div class="experience-description">
+              Edición de la producción audiovisual "Mirada Interna en concierto" producción
+              "Ciega Fuerza"
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2014-2022</div>
+            <div class="experience-company">Inversiones Esarte C.A.</div>
+            <div class="experience-position">CEO</div>
+            <div class="experience-description">
+              CEO de la productora musical "Esarte". Músico, compositor, arreglista e ingeniero
+              de grabación. Producción de agrupaciones musicales. Grabación y producciones de
+              música en vivo.   
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div> 
+          <div class="experience">
+            <div class="experience-date">2011-2019</div>
+            <div class="experience-company">Mirada Interna</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+              Cantante, baterísta, tecladista, compositor, arreglista, productor e ingenierio de sonido.
+              Grabación de álbums de música propia, uso de la informática musical para la
+              grabación de dichos álbumes. Dirección y edición de cortormetrajes de video para la 
+              proyección durante los conciertos de la banda. La banda "Mirada Interna" fusiona el
+              rock con el tambor venezolano adaptado a la batería, la música electrónica y el jazz. 
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2009-2022</div>
+            <div class="experience-company">Café pa' 3</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+               Cantante, baterísta, tecladista y productor de la agrupación musical de versiones "Café pa' 3" 
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div> 
+          <div class="experience">
+            <div class="experience-date">2008 - 2009</div>
+            <div class="experience-company">Fundación Andrógenos</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+              Música en vivo y espacio sonoro de la obra de teatro Andro - Gino 
+              dirigida por Gabriel Torres.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2006-2010</div>
+            <div class="experience-company">Latifonía</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+               Baterísta, tecladista, cantante, compositor, arreglista e ingeniero de sonido. 
+               Agrupación musical fundada con la finalidad de interpretar y difundir la música 
+               venezolana lírico-popular, así como la de origen latino en general 
+               y la de sus raíces e influencias.
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>  
+          <div class="experience">
+            <div class="experience-date">2005-2006</div>
+            <div class="experience-company">Universidad de los Andes (ULA)</div>
+            <div class="experience-position">Técnico en mantenimiento de micros y programador</div>
+            <div class="experience-description">
+              Técnico en mantenimiento de micros en Servicios de Biblioteca de la 
+              Universidad de los Andes, SERBIULA. Desarrollo de sistema para llevar el inventario
+              de equipos informáticos de las bilbiotecas de la institución. Uso de Visual FoxPro 
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2004-2015</div>
+            <div class="experience-company">Raíz de Agua</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+               Tecladista, baterísta, percusionista, compositor, arreglista e ingeniero de sonido. 
+               Agrupación que fusiona la música venezolana, el jazz, flamenco y música del mundo 
+               con la danza. Grabación de álbumes de música propia y creación de producciones 
+               audiovisuales. 
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>  
+          <div class="experience">
+            <div class="experience-date">2002 - 2005</div>
+            <div class="experience-company">Instituto Universitario 
+              de la Frontera (IUFRONT)</div>
+            <div class="experience-position">Programador y Asistente administrativo</div>
+            <div class="experience-description">
+              Desarrollo e implementación de nuevos módulos para el Sistema de control
+              de estudios, consulta de notas y mejoras en los procesos de búsqueda. 
+              Uso de Visual FoxPro y consultas SQL bajo una red LAN. 
+              Asistente administrativo durante el proceso de inscripción y entrega de notas 
+              de los profesores. 
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2001</div>
+            <div class="experience-company">CAPROF</div>
+            <div class="experience-position">Pasantías TSU en informática</div>
+            <div class="experience-description">
+              Caja de Ahorros del Profesorado de la Universidad de los Andes 
+              Mantenimiento de la base de datos y sistema para el control de préstamos de los 
+              profesores de la Universidad de los Andes. tecnologia utilizada: FoxPro. 
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>  
+          <div class="experience">
+            <div class="experience-date">1997 - 2000</div>
+            <div class="experience-company">Bilongo</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+              Percusionista, cantante, compositor, arreglista e ingeniero de sonido en la agrupación 
+              "Bilongo". Agrupación musical que fusiona la música latina en especial la salsa brava 
+              con el jazz.  
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">1996-2022</div>
+            <div class="experience-company">Bajo Sospecha</div>
+            <div class="experience-position">Músico</div>
+            <div class="experience-description">
+               Baterísta, tecladista, compositor, arreglista e ingeniero de sonido en la 
+               agrupación musical junto Johann Espinoza. Agrupación que fusiona el jazz
+               con la música venezolana y latinoamericana. Grabación de álbumes tanto de versiones
+               como de música propia. Uso de informática musical para la grabación de álbumes.
+               (Secuenciadores audio - midi, plugins, mezcla y masterización). 
+            </div> 
+          </div>
+          <div class="line"></div>  
+          <div class="empty"></div>
+          <div class="empty"></div>          
+        </div>
+      </div> 
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom">
+    </section>
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">JavaScript</li>
+          <li class="skills-skill">React.js</li>
+          <li class="skills-skill">Visual FoxPro</li>
+          <li class="skills-skill">Python</li>
+          <li class="skills-skill">Django</li>
+          <li class="skills-skill">Java</li>
+          <li class="skills-skill">WordPress</li>
+          <li class="skills-skill">Músico</li>
+          <li class="skills-skill">Compositor</li>
+          <li class="skills-skill">Arreglista</li>
+          <li class="skills-skill">Ingeniero de sonido</li>
+          <li class="skills-skill">Secuenciadores de audio-midi</li>
+          <li class="skills-skill">Edición de video</li>
+          <li class="skills-skill">Photoshop</li>
+          <li class="skills-skill">Docente</li>
+        </ul>
+      </section>
+    </div>
+    <section class="contact" id="contact">
+      <img src="img/wave.svg" alt="división" class="contact-wave">
+        <div class="contact-content">
+          <form id="form" class="form" action="https://formspree.io/f/mpzbgaqk" method="POST">
+            <h2 class="contact-title"><span>Contacto</span></h2>
+            <label class="contact-label-name" for="name">Nombre completo <span>*</span></label>
+            <input class="contact-input-name" name="name" required type="text" id="name" placeholder="Pedro Perez">
+            <br>  
+            <label class="contact-label-email" for="email">Correo electrónico <span>*</span></label>
+            <input class="contact-input-email" name="email" required type="email" id="email" placeholder="pedro@gmail.com">
+            <br>
+            <label class="contact-label-textarea" for="message">Mensaje</label>
+            <textarea class="contact-input-textarea" id="message" name="message" cols="30" rows="8"></textarea>
+            <br>
+            <button type="submit" class="contact-btn">Enviar mensaje</button>
+            <br>
+          </form>
+        </div>
+      <img src="img/wave.svg" alt="división" class="contact-wave contact-wave_bottom">
+    </section> 
+    <footer>Pie de la pagina</footer> 
+  </body>
+</html>
