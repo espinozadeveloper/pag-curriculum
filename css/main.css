@@ -38,6 +38,10 @@ a{
     padding-bottom: 25px;
 }
 
+.footer{
+    text-align:center;
+}
+
 @media (min-width: 950px){
     .horizontal-padding{
         padding-left: 70px;
