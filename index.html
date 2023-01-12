@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/contact.css" />
     <script defer src="js/app.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <header class="topheader">
@@ -387,7 +388,7 @@
     <section class="contact" id="contact">
       <img src="img/wave.svg" alt="división" class="contact-wave">
         <div class="contact-content">
-          <form id="form" class="form" action="" method="POST">
+          <form id="form" class="form" action="https://formspree.io/f/mpzbgaqk" method="POST">
             <h2 class="contact-title"><span>Contacto</span></h2>
             <label class="contact-label-name" for="name">Nombre completo <span>*</span></label>
             <input class="contact-input-name" name="name" required type="text" id="name" placeholder="Pedro Perez">
@@ -397,6 +398,8 @@
             <br>
             <label class="contact-label-textarea" for="message">Mensaje</label>
             <textarea class="contact-input-textarea" id="message" name="message" cols="30" rows="8"></textarea>
+            <br>
+            <div class="g-recaptcha" data-sitekey="6LeRDfEjAAAAAPfxUUBInsBCi30RfCe8N8SkFaLE"></div>
             <br>
             <button type="submit" class="contact-btn">Enviar mensaje</button>
             <br>

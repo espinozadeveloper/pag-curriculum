@@ -47,6 +47,11 @@
 }
 
 
+.g-recaptcha{
+    display: flex;
+    justify-content: center;
+}
+
 .contact-btn {
     background-color: var(--secundary-color);
     color: var(--primary-color);
