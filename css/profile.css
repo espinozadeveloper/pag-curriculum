@@ -15,7 +15,8 @@
 
 .profile-img-line {
   background-color: var(--secundary-color);
-  height: 10px;
+  height: 6px;
+  border-radius: 5px;
   position: absolute;
   width: 100%;
   left: 0;
