@@ -1,13 +1,20 @@
 .skills {
     max-width: 980px;
     margin: 0 auto;
-  }
+}
 
 .skills-title {
     font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+}
+
+.skills-subtitle {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .skills-skill {
@@ -22,7 +29,6 @@
 .skills-list {
     list-style: none;
     padding: 0;
-  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
